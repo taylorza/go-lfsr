@@ -28,5 +28,5 @@ Use the 'go' command:
 See [tests](https://github.com/taylorza/go-lfsr/blob/master/lfsr_test.go) for more examples
 
 ## Copyright 
-(C)2013-2019 by Chris Taylor (taylorza)
+Copyright (C)2013-2019 by Chris Taylor (taylorza)
 See [Licence](https://github.com/taylorza/go-lfsr/blob/master/LICENSE)
