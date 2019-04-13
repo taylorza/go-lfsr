@@ -92,12 +92,12 @@ func TestLfsr64(t *testing.T) {
 	p := uint64(0)
 	l := NewLfsr64(0)
 	restarted := false
-	for !restarted && p < 0x100000000 {
+	for !restarted && p < 0x10000000 {
 		p++
 		_, restarted = l.Next()
 
 	}
-	if p != 0x100000000 {
+	if p != 0x10000000 {
 		t.Error("Lfsr64 did not complete the full period and restarted at ", p)
 	}
 }
